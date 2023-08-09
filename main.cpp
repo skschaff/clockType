@@ -15,15 +15,14 @@ int main()
     int seconds;
 
         //Set the time of myClock
-    myClock.setTime(5, 4, 30);                         //Line 1
+    myClock.setTime(5, 4, 30);
+    cout << "myClock: ";
+    myClock.printTime();  //print the time of myClock 
+    cout << endl;
 
-    cout << "Line 2: myClock: ";                       //Line 2
-    myClock.printTime();  //print the time of myClock    Line 3
-    cout << endl;                                      //Line 4
-
-    cout << "Line 5: yourClock: ";                     //Line 5
-    yourClock.printTime(); //print the time of yourClock Line 6
-    cout << endl;                                      //Line 7
+    cout << "yourClock: ";
+    yourClock.printTime(); //print the time of yourClock
+    cout << endl;
 
         //Set the time of yourClock
     yourClock.setTime(5, 45, 16);                      //Line 8
