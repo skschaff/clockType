@@ -25,14 +25,14 @@ int main()
     cout << endl;
 
         //Set the time of yourClock
-    yourClock.setTime(5, 45, 16);                      //Line 8
+    yourClock.setTime(5, 45, 16); 
 
-    cout << "Line 9: After setting, yourClock: ";      //Line 9
-    yourClock.printTime(); //print the time of yourClock Line 10
-    cout << endl;                                      //Line 11
+    cout << "Line 9: After setting, yourClock: ";
+    yourClock.printTime(); //print the time of yourClock 
+    cout << endl;
 
         //Compare myClock and yourClock
-    if (myClock.equalTime(yourClock))                  //Line 12
+    if (myClock.equalTime(yourClock))
         cout << "Line 13: Both times are equal."
              << endl;                                  //Line 13
     else                                               //Line 14
