@@ -34,19 +34,19 @@ int main()
         //Compare myClock and yourClock
     if (myClock.equalTime(yourClock))
         cout << "Line 13: Both times are equal."
-             << endl;                                  //Line 13
-    else                                               //Line 14
+             << endl;
+    else    
         cout << "Line 15: The two times are not equal."
-             << endl;                                  //Line 15
+             << endl; 
 
     cout << "Line 16: Enter the hours, minutes, and "
-         << "seconds: ";                               //Line 16
-    cin >> hours >> minutes >> seconds;                //Line 17
-    cout << endl;                                      //Line 18
+         << "seconds: ";  
+    cin >> hours >> minutes >> seconds; 
+    cout << endl; 
 
         //Set the time of myClock using the value of the
         //variables hours, minutes, and seconds
-    myClock.setTime(hours, minutes, seconds);          //Line 19
+    myClock.setTime(hours, minutes, seconds);
 
     cout << "Line 20: New myClock: ";                  //Line 20
     myClock.printTime();   //print the time of myClock   Line 21
