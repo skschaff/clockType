@@ -1,4 +1,5 @@
 //The user program that uses the class clockType
+//Will modify this later. 
    
 #include <iostream>
 #include "clockType.h"
@@ -46,11 +47,13 @@ int main()
 
         //Set the time of myClock using the value of the
         //variables hours, minutes, and seconds
-    myClock.setTime(hours, minutes, seconds);
+        //Test indivisual sets
+    myClock.setHours(hours);
+    myClock.setMinutes(minutes);
+    myClock.setSeconds(seconds);
 
     cout << "New myClock: ";
-    myClock.printTime();   //print the time of myClock  
-    cout << endl; 
+   cout << myClock.getHours() << ":" << myClock.getMinutes() << ":" << myClock.getSeconds() << endl;
 
         //Increment the time of myClock by one second
     myClock.incrementSeconds(); 

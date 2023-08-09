@@ -13,10 +13,20 @@ public:
       //               are valid. If a value is invalid, the 
       //               default value 0 is assigned.
 
+    void setHours(int hours);
+    void setMinutes(int minutes);
+    void setSeconds(int seconds);
+    // Individual sets
+
     void getTime(int& hours, int& minutes, int& seconds) const;
       //Function to return the time.
       //Postcondition: hours = hr; minutes = min;
       //               seconds = sec;
+
+    int getHours(){ return hr; }
+    int getMinutes(){ return min; }
+    int getSeconds(){ return sec; }
+    // Individual gets (inline functons)
 
     void printTime() const;
       //Function to print the time.
