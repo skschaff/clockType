@@ -13,9 +13,9 @@ public:
       //               are valid. If a value is invalid, the 
       //               default value 0 is assigned.
 
-    void setHours(int hours);
-    void setMinutes(int minutes);
-    void setSeconds(int seconds);
+    void setHours(int H);
+    void setMinutes(int M);
+    void setSeconds(int S);
     // Individual sets
 
     void getTime(int& hours, int& minutes, int& seconds) const;
