@@ -1,4 +1,5 @@
 //The user program that uses the class clockType
+//Will modify this later. 
    
 #include <iostream>
 #include "clockType.h"
